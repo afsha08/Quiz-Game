@@ -5,12 +5,6 @@ Welcome to **Quiz-Whiz**, a fun and interactive web-based quiz game designed to 
 
 ---
 
-## 🚀 Live Demo
-
-👉 [Click here to play Quiz-Whiz](#)  
-
-
----
 
 ## 🛠️ Tech Stack Used
 
