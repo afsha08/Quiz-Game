@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-image: url('https://cloudberries.co.uk/cdn/shop/articles/1000-piece-puzzle-how-long_413db168-959a-4888-92a9-1c9c94815f84.jpg?v=1744659886'); */
+    background-size: cover;
+    background-color: rgb(109, 200, 223);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-top: 30px;
+    color: #000;
+}
+
+h1::first-letter {
+    color: red;
+}
+
+.main {
+    position: relative;
+    background-color: #111010ea;
+    padding: 40px 30px;
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.main::before {
+    content: '';
+    position: absolute;
+    width: 600px;
+    height: 130%;
+    background-image: linear-gradient(180deg, blue, red);
+    animation: rotBgimg 3s linear infinite;
+    transition: all 0.2s linear;
+    z-index: 1;
+    top: -15%;
+    left: -15%;
+}
+
+.main::after {
+    content: '';
+    position: absolute;
+    background: #07182e;
+    inset: 5px;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+.main > * {
+    position: relative;
+    z-index: 3;
+}
+
+@keyframes rotBgimg {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#question {
+    background-color: #d31e18;
+    color: white;
+    font-size: 1.9rem;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 60px;
+}
+
+#option {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+#score {
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+button {
+    background-color: rgb(229, 232, 233);
+    font-size: 30px;
+    height: 60px;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+button:hover.stars{
+    display: block;
+    filter: drop-shadow(0 0 10px  #fffdef);
+
+}
