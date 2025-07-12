@@ -1,4 +1,3 @@
-#QUIZ-GAME
 
 # Quiz-Whiz Game 🧠✨
 
@@ -9,7 +8,7 @@ Welcome to **Quiz-Whiz**, a fun and interactive web-based quiz game designed to 
 ## 🚀 Live Demo
 
 👉 [Click here to play Quiz-Whiz](#)  
-*(Add your GitHub Pages or deployed link here)*
+
 
 ---
 
@@ -35,10 +34,12 @@ Welcome to **Quiz-Whiz**, a fun and interactive web-based quiz game designed to 
 
 ## 🖼️ Screenshots
 
-### 📋 Question Interface
-<img src="https://i.imgur.com/Cg19bMF.png" alt="Quiz Interface" width="600"/> <!-- Replace with your actual screenshot -->
+<img width="363" height="464" alt="Screenshot 2025-07-12 105536" src="https://github.com/user-attachments/assets/d4cbd07a-a971-47c7-8c54-89cbbf9dfdf9" />
+
+<img width="382" height="472" alt="Screenshot 2025-07-12 105608" src="https://github.com/user-attachments/assets/11aa25f7-5833-4153-973a-111b053c1f77" />
 
 ---
+
 
 
 
