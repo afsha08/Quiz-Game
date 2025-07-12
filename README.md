@@ -8,8 +8,9 @@ Welcome to **Quiz-Whiz**, a fun and interactive web-based quiz game designed to 
 
 ## 🚀 Live Demo
 
-👉 [Click here to play Quiz-Whiz](#)  
-*(Add your GitHub Pages or deployed link here)*
+
+
+👉 [Click here to play Quiz-Whiz](https://afsha08.github.io/Quiz-Game/)]  
 
 ---
 
